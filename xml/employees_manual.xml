@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE employees SYSTEM "employees.dtd">
+<employees>
+    <employee type="REGULAR">
+        <id>123</id>
+        <firstname>Robert</firstname>
+        <lastname>meDiro</lastname>
+        <income>1000.01</income>
+    </employee>
+</employees>

@@ -1,0 +1,16 @@
+<h1>package hr.algebra.View</h1>
+
+public GameBoardView extends Object
+
+private javafx.scene.layout.GridPane hr.algebra.View.GameBoardView.gridPane
+private int hr.algebra.View.GameBoardView.rows
+private int hr.algebra.View.GameBoardView.cols
+
+
+public class javafx.scene.layout.GridPane getGridPane()
+
+
+public class javafx.scene.control.Button getButton(int arg0, int arg1)
+
+
+public hr.algebra.View.GameBoardView(int arg0, int arg1)

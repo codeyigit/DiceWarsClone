@@ -1,0 +1,30 @@
+<h1>package hr.algebra.dicewarsgameclone</h1>
+
+public HelloApplication extends Application -> Object
+
+private static javafx.stage.Stage hr.algebra.dicewarsgameclone.HelloApplication.mainStage
+public static hr.algebra.Model.PlayerType hr.algebra.dicewarsgameclone.HelloApplication.playerLoggedIn
+
+
+public static void startClient()
+
+
+public static void startServer()
+
+
+public static void startRMIserver()
+
+
+public static void main(java.lang.String[] arg0)
+
+
+public void start(javafx.stage.Stage arg0)
+
+
+private static void lambda$acceptServerRequests$0(java.net.Socket arg0)
+
+
+public static void acceptServerRequests()
+
+
+public hr.algebra.dicewarsgameclone.HelloApplication()

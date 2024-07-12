@@ -1,0 +1,21 @@
+<h1>package hr.algebra.Model</h1>
+
+public MoveLocation extends Object implements Serializable
+
+private java.lang.Integer hr.algebra.Model.MoveLocation.X
+private java.lang.Integer hr.algebra.Model.MoveLocation.Y
+
+
+public class java.lang.Integer getX()
+
+
+public class java.lang.Integer getY()
+
+
+public void setX(java.lang.Integer arg0)
+
+
+public void setY(java.lang.Integer arg0)
+
+
+public hr.algebra.Model.MoveLocation(java.lang.Integer arg0, java.lang.Integer arg1)

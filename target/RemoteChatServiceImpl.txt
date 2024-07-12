@@ -1,0 +1,14 @@
+<h1>package hr.algebra.chat</h1>
+
+public RemoteChatServiceImpl extends Object implements RemoChatService
+
+java.util.List hr.algebra.chat.RemoteChatServiceImpl.chatMessagesList
+
+
+public interface java.util.List getAllChatMessages() throws RemoteException
+
+
+public void sendChatMessage(java.lang.String arg0) throws RemoteException
+
+
+public hr.algebra.chat.RemoteChatServiceImpl()

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee (id, firstname, lastname, income)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT income (#PCDATA)>
+<!ATTLIST employee type (REGULAR | OUTSOURCED) #REQUIRED>

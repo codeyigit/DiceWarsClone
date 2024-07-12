@@ -1,0 +1,26 @@
+<h1>package hr.algebra.Networking</h1>
+
+public NetworkingUtils extends Object
+
+
+
+
+public static void processSerializableClient(java.net.Socket arg0)
+
+
+public static void acceptClientRequests()
+
+
+public static void sendGameboardToClient(hr.algebra.Model.Game arg0)
+
+
+public static void sendGameboardToServer(hr.algebra.Model.Game arg0)
+
+
+public static void sendSerializableRequest(java.net.Socket arg0, hr.algebra.Model.Game arg1) throws IOException, ClassNotFoundException
+
+
+private static void lambda$acceptClientRequests$0(java.net.Socket arg0)
+
+
+public hr.algebra.Networking.NetworkingUtils()

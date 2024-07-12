@@ -1,0 +1,44 @@
+<h1>package hr.algebra.Utillities</h1>
+
+public final ReflectionUtils extends Object
+
+
+
+
+private static void appendConstructors(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)
+
+
+public static void readClassInfo(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)
+
+
+private static void appendParameters(java.lang.reflect.Executable arg0, java.lang.StringBuilder arg1)
+
+
+private static void appendAnnotations(java.lang.reflect.Executable arg0, java.lang.StringBuilder arg1)
+
+
+public static void appendInterfaces(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)
+
+
+public static void appendPackage(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)
+
+
+private static void appendMethods(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)
+
+
+public static void appendModifiers(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)
+
+
+private static void appendFields(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)
+
+
+private static void appendExceptions(java.lang.reflect.Executable arg0, java.lang.StringBuilder arg1)
+
+
+public static void appendParent(java.lang.Class<?> arg0, java.lang.StringBuilder arg1, boolean arg2)
+
+
+public static void readClassAndMembersInfo(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)
+
+
+private hr.algebra.Utillities.ReflectionUtils()

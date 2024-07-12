@@ -1,0 +1,12 @@
+<h1>package hr.algebra.Model</h1>
+
+public NetworkConfiguration extends Object
+
+public static final java.lang.Integer hr.algebra.Model.NetworkConfiguration.SERVER_PORT
+public static final java.lang.Integer hr.algebra.Model.NetworkConfiguration.CLIENT_PORT
+public static final java.lang.String hr.algebra.Model.NetworkConfiguration.SERVER_HOST
+public static final int hr.algebra.Model.NetworkConfiguration.RANDOM_PORT_HINT
+public static final int hr.algebra.Model.NetworkConfiguration.RMI_PORT
+
+
+public hr.algebra.Model.NetworkConfiguration()

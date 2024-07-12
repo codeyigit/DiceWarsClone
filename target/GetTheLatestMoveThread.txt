@@ -1,0 +1,14 @@
+<h1>package hr.algebra.threads</h1>
+
+public GetTheLatestMoveThread extends GameMoveThread -> Object implements Runnable
+
+private javafx.scene.control.Label hr.algebra.threads.GetTheLatestMoveThread.theLastMoveLabel
+
+
+public void run()
+
+
+private void lambda$run$0()
+
+
+public hr.algebra.threads.GetTheLatestMoveThread(javafx.scene.control.Label arg0)

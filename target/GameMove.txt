@@ -1,0 +1,28 @@
+<h1>package hr.algebra.Model</h1>
+
+public GameMove extends Object implements Serializable
+
+private java.lang.String hr.algebra.Model.GameMove.Player
+private hr.algebra.Model.MoveLocation hr.algebra.Model.GameMove.location
+private java.time.LocalDateTime hr.algebra.Model.GameMove.dateTime
+
+
+public class hr.algebra.Model.MoveLocation getLocation()
+
+
+public class java.time.LocalDateTime getDateTime()
+
+
+public void setLocation(hr.algebra.Model.MoveLocation arg0)
+
+
+public void setDateTime(java.time.LocalDateTime arg0)
+
+
+public class java.lang.String getPlayer()
+
+
+public void setPlayer(java.lang.String arg0)
+
+
+public hr.algebra.Model.GameMove(java.lang.String arg0, hr.algebra.Model.MoveLocation arg1, java.time.LocalDateTime arg2)

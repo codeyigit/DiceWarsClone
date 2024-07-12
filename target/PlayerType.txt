@@ -1,0 +1,20 @@
+<h1>package hr.algebra.Model</h1>
+
+public final PlayerType extends Enum -> Object
+
+public static final hr.algebra.Model.PlayerType hr.algebra.Model.PlayerType.SERVER
+public static final hr.algebra.Model.PlayerType hr.algebra.Model.PlayerType.CLIENT
+public static final hr.algebra.Model.PlayerType hr.algebra.Model.PlayerType.SINGLE_PLAYER
+private static final hr.algebra.Model.PlayerType[] hr.algebra.Model.PlayerType.$VALUES
+
+
+public static class [Lhr.algebra.Model.PlayerType; values()
+
+
+public static class hr.algebra.Model.PlayerType valueOf( java.lang.String arg0)
+
+
+private static class [Lhr.algebra.Model.PlayerType; $values()
+
+
+private hr.algebra.Model.PlayerType( java.lang.String arg0,  int arg1)

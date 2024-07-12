@@ -1,0 +1,137 @@
+<h1>package hr.algebra.Controller</h1>
+
+public GameController extends Object
+
+private static final java.lang.String hr.algebra.Controller.GameController.CLASSES_PATH
+private static hr.algebra.chat.RemoChatService hr.algebra.Controller.GameController.chatServiceStub
+private static final java.lang.String hr.algebra.Controller.GameController.DOCUMENTATION_PATH
+private static final java.lang.String hr.algebra.Controller.GameController.EXT
+private static hr.algebra.Model.Game hr.algebra.Controller.GameController.model
+private static hr.algebra.View.GameView hr.algebra.Controller.GameController.view
+private boolean hr.algebra.Controller.GameController.selecting
+private int hr.algebra.Controller.GameController.selectedRow
+private int hr.algebra.Controller.GameController.selectedCol
+private java.util.Random hr.algebra.Controller.GameController.random
+
+
+private void performAttack(int arg0, int arg1)
+
+
+private boolean hasAdjacentEnemy(int arg0, int arg1, hr.algebra.Model.Player arg2)
+
+
+private void deselectCell(javafx.scene.control.Button arg0, hr.algebra.Model.Player arg1)
+
+
+private void updateBoardView()
+
+
+private void handleCellClick(int arg0, int arg1)
+
+
+private void checkGameEnd()
+
+
+private int countPlayerCells(hr.algebra.Model.Player arg0)
+
+
+public static void changeGameState()
+
+
+private void prepareBoard()
+
+
+private void updateCellView(int arg0, int arg1, int arg2)
+
+
+private void updateCellView(int arg0, int arg1)
+
+
+public void sentChatMessage()
+
+
+private static void updatePlayerCells(hr.algebra.Model.Player arg0)
+
+
+private void updateInfoTextArea(java.lang.String arg0)
+
+
+public static void restoreGameBoard(hr.algebra.Model.Game arg0)
+
+
+private static void updateGameControls()
+
+
+private void lambda$attachEventHandlers$7(int arg0, int arg1, javafx.event.ActionEvent arg2)
+
+
+private void lambda$attachEventHandlers$1(javafx.event.ActionEvent arg0)
+
+
+private void lambda$attachEventHandlers$6(javafx.event.ActionEvent arg0)
+
+
+private void lambda$attachEventHandlers$0(javafx.event.ActionEvent arg0)
+
+
+private void lambda$attachEventHandlers$8(javafx.event.ActionEvent arg0)
+
+
+private static class java.lang.String lambda$createDocumentation$11(java.nio.file.Path arg0)
+
+
+private void lambda$attachEventHandlers$4(javafx.event.ActionEvent arg0)
+
+
+private void lambda$attachEventHandlers$3(javafx.event.ActionEvent arg0)
+
+
+private void lambda$attachEventHandlers$9(javafx.scene.input.KeyEvent arg0)
+
+
+private void lambda$attachEventHandlers$2(javafx.event.ActionEvent arg0)
+
+
+private void lambda$attachEventHandlers$5(javafx.event.ActionEvent arg0)
+
+
+private static void lambda$showAlert$10(java.lang.String arg0, java.lang.String arg1)
+
+
+private void attachEventHandlers()
+
+
+private void addDiceToPlayerCells(hr.algebra.Model.Player arg0)
+
+
+public void refreshChatTextArea()
+
+
+private void generateDocumentation()
+
+
+private static void createDocumentation(java.nio.file.Path arg0) throws IOException
+
+
+private void endTurn()
+
+
+private void startGame()
+
+
+private boolean isAdjacent(int arg0, int arg1, int arg2, int arg3)
+
+
+private int rollDice(int arg0)
+
+
+private void showAlert(java.lang.String arg0, java.lang.String arg1)
+
+
+public void loadGame()
+
+
+public void saveGame()
+
+
+public hr.algebra.Controller.GameController(hr.algebra.Model.Game arg0, hr.algebra.View.GameView arg1)

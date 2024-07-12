@@ -1,0 +1,18 @@
+<h1>package hr.algebra.threads</h1>
+
+public abstract GameMoveThread extends Object
+
+private static boolean hr.algebra.threads.GameMoveThread.fileAccessInProgress
+private static final java.lang.String hr.algebra.threads.GameMoveThread.MOVES_FILE
+
+
+private synchronized interface java.util.List getAllMoves()
+
+
+public synchronized class hr.algebra.Model.GameMove getTheLastMove()
+
+
+public synchronized void saveMove(hr.algebra.Model.GameMove arg0)
+
+
+public hr.algebra.threads.GameMoveThread()

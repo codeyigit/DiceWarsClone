@@ -1,0 +1,11 @@
+<h1>package hr.algebra.threads</h1>
+
+public SaveMoveThread extends GameMoveThread -> Object implements Runnable
+
+private hr.algebra.Model.GameMove hr.algebra.threads.SaveMoveThread.gameMove
+
+
+public void run()
+
+
+public hr.algebra.threads.SaveMoveThread(hr.algebra.Model.GameMove arg0)

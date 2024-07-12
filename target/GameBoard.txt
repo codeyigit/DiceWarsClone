@@ -1,0 +1,29 @@
+<h1>package hr.algebra.Model</h1>
+
+public GameBoard extends Object implements Serializable
+
+private int hr.algebra.Model.GameBoard.rows
+private int hr.algebra.Model.GameBoard.cols
+private int[][] hr.algebra.Model.GameBoard.diceCounts
+private hr.algebra.Model.Player[][] hr.algebra.Model.GameBoard.cellOwners
+
+
+public class hr.algebra.Model.Player getCellOwner(int arg0, int arg1)
+
+
+public void setDiceCount(int arg0, int arg1, int arg2)
+
+
+public int getDiceCount(int arg0, int arg1)
+
+
+public void setCellOwner(int arg0, int arg1, hr.algebra.Model.Player arg2)
+
+
+public int getCols()
+
+
+public int getRows()
+
+
+public hr.algebra.Model.GameBoard(int arg0, int arg1)

@@ -1,0 +1,11 @@
+<h1>package hr.algebra.chat</h1>
+
+public abstract interface RemoChatService implements Remote
+
+public static final java.lang.String hr.algebra.chat.RemoChatService.REMOTE_CHAT_OBJECT_NAME
+
+
+public abstract interface java.util.List getAllChatMessages() throws RemoteException
+
+
+public abstract void sendChatMessage(java.lang.String arg0) throws RemoteException

@@ -1,0 +1,96 @@
+<h1>package hr.algebra.View</h1>
+
+public GameView extends Object implements Serializable
+
+private javafx.scene.control.TextArea hr.algebra.View.GameView.chatArea
+private javafx.scene.control.TextField hr.algebra.View.GameView.messageField
+private javafx.scene.control.Button hr.algebra.View.GameView.sendButton
+private javafx.scene.layout.VBox hr.algebra.View.GameView.vBox
+private hr.algebra.View.GameBoardView hr.algebra.View.GameView.gameBoardView
+private javafx.scene.control.TextArea hr.algebra.View.GameView.infoTextArea
+private javafx.scene.control.Button hr.algebra.View.GameView.prepareButton
+private javafx.scene.control.Button hr.algebra.View.GameView.startButton
+private javafx.scene.control.Button hr.algebra.View.GameView.endTurnButton
+private javafx.scene.control.MenuBar hr.algebra.View.GameView.menuBar
+private javafx.scene.control.Menu hr.algebra.View.GameView.fileMenu
+private javafx.scene.control.MenuItem hr.algebra.View.GameView.saveGameMenuItem
+private javafx.scene.control.MenuItem hr.algebra.View.GameView.loadGameMenuItem
+private javafx.scene.control.MenuItem hr.algebra.View.GameView.newGameMenuItem
+private javafx.scene.control.Menu hr.algebra.View.GameView.documentationMenu
+private javafx.scene.control.MenuItem hr.algebra.View.GameView.generateDocumentationMenuItem
+private javafx.scene.control.Label hr.algebra.View.GameView.lastMoveLabel
+
+
+public class javafx.scene.layout.VBox getVBox()
+
+
+public class javafx.scene.control.MenuBar getMenuBar()
+
+
+public class javafx.scene.control.TextArea getInfoTextArea()
+
+
+public class javafx.scene.control.Label getLastMoveLabel()
+
+
+private void createChatSection()
+
+
+public class hr.algebra.View.GameBoardView getGameBoardView()
+
+
+public void setLastMoveLabel(javafx.scene.control.Label arg0)
+
+
+public class javafx.scene.control.Button getSendButton()
+
+
+public class javafx.scene.control.Button getStartButton()
+
+
+public class javafx.scene.control.Button getEndTurnButton()
+
+
+public class javafx.scene.control.TextField getMessageField()
+
+
+public class javafx.scene.control.Button getPrepareButton()
+
+
+public class javafx.scene.control.Menu getFileMenu()
+
+
+public class javafx.scene.control.MenuItem getNewGameMenuItem()
+
+
+public class javafx.scene.control.TextArea getChatArea()
+
+
+public class javafx.scene.layout.VBox getvBox()
+
+
+public void setvBox(javafx.scene.layout.VBox arg0)
+
+
+public void setGenerateDocumentationMenuItem(javafx.scene.control.MenuItem arg0)
+
+
+public class javafx.scene.control.MenuItem getGenerateDocumentationMenuItem()
+
+
+public void setSaveGameMenuItem(javafx.scene.control.MenuItem arg0)
+
+
+public class javafx.scene.control.Menu getDocumentationMenu()
+
+
+public void setLoadGameMenuItem(javafx.scene.control.MenuItem arg0)
+
+
+public class javafx.scene.control.MenuItem getLoadGameMenuItem()
+
+
+public class javafx.scene.control.MenuItem getSaveGameMenuItem()
+
+
+public hr.algebra.View.GameView(hr.algebra.View.GameBoardView arg0)

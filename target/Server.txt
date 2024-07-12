@@ -1,0 +1,21 @@
+<h1>package hr.algebra.Networking</h1>
+
+public Server extends Object
+
+public static final java.lang.String hr.algebra.Networking.Server.HOST
+public static final int hr.algebra.Networking.Server.PORT
+
+
+public static void main(java.lang.String[] arg0)
+
+
+private static void acceptRequests()
+
+
+private static void processSerializableClient(java.net.Socket arg0)
+
+
+private static void lambda$acceptRequests$0(java.net.Socket arg0)
+
+
+public hr.algebra.Networking.Server()

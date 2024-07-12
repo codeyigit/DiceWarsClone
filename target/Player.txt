@@ -1,0 +1,24 @@
+<h1>package hr.algebra.Model</h1>
+
+public Player extends Object implements Serializable
+
+private transient javafx.scene.paint.Color hr.algebra.Model.Player.playerColor
+private int hr.algebra.Model.Player.cellCount
+
+
+private void readObject(java.io.ObjectInputStream arg0) throws IOException, ClassNotFoundException
+
+
+private void writeObject(java.io.ObjectOutputStream arg0) throws IOException
+
+
+public int getCellCount()
+
+
+public class javafx.scene.paint.Color getPlayerColor()
+
+
+public void setCellCount(int arg0)
+
+
+public hr.algebra.Model.Player(javafx.scene.paint.Color arg0)

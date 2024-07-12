@@ -1,0 +1,25 @@
+<h1>package hr.algebra.Networking</h1>
+
+public Country extends Object implements Externalizable
+
+private static final long hr.algebra.Networking.Country.serialVersionUID
+private java.lang.String hr.algebra.Networking.Country.name
+private int hr.algebra.Networking.Country.code
+
+
+public class java.lang.String toString()
+
+
+public void setName(java.lang.String arg0)
+
+
+public void writeExternal(java.io.ObjectOutput arg0) throws IOException
+
+
+public void readExternal(java.io.ObjectInput arg0) throws IOException, ClassNotFoundException
+
+
+public hr.algebra.Networking.Country()
+
+
+public hr.algebra.Networking.Country(java.lang.String arg0, int arg1)

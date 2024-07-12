@@ -1,0 +1,42 @@
+<h1>package hr.algebra.Model</h1>
+
+public Game extends Object implements Serializable
+
+private hr.algebra.Model.GameBoard hr.algebra.Model.Game.board
+private hr.algebra.Model.Player hr.algebra.Model.Game.currentPlayer
+private hr.algebra.Model.Player hr.algebra.Model.Game.player1
+private hr.algebra.Model.Player hr.algebra.Model.Game.player2
+private boolean hr.algebra.Model.Game.gameStarted
+
+
+public void setGameStarted(boolean arg0)
+
+
+public boolean isGameStarted()
+
+
+public void setCurrentPlayer(hr.algebra.Model.Player arg0)
+
+
+public class hr.algebra.Model.Player getCurrentPlayer()
+
+
+public void setBoard(hr.algebra.Model.GameBoard arg0)
+
+
+public class hr.algebra.Model.Player getPlayer2()
+
+
+public void setPlayer1(hr.algebra.Model.Player arg0)
+
+
+public void setPlayer2(hr.algebra.Model.Player arg0)
+
+
+public class hr.algebra.Model.GameBoard getBoard()
+
+
+public class hr.algebra.Model.Player getPlayer1()
+
+
+public hr.algebra.Model.Game(hr.algebra.Model.GameBoard arg0)

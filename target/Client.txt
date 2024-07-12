@@ -1,0 +1,17 @@
+<h1>package hr.algebra.Networking</h1>
+
+public Client extends Object
+
+
+
+
+public static void main(java.lang.String[] arg0)
+
+
+private static void sendRequest()
+
+
+private static void sendSerializableRequest(java.net.Socket arg0) throws IOException, ClassNotFoundException
+
+
+public hr.algebra.Networking.Client()

@@ -24,18 +24,20 @@ public class Player implements Serializable {
     public void setCellCount(int cellCount) {
         this.cellCount = cellCount;
     }
-    private void writeObject(java.io.ObjectOutputStream out) throws IOException {
-        out.defaultWriteObject();
-        out.writeDouble(playerColor.getRed());
-        out.writeDouble(playerColor.getGreen());
-        out.writeDouble(playerColor.getBlue());
+    private void writeObject(java.io.ObjectOutputStream oos) throws IOException {
+        oos.defaultWriteObject();
+        oos.writeFloat((float) playerColor.getRed());
+        oos.writeFloat((float) playerColor.getGreen());
+        oos.writeFloat((float) playerColor.getBlue());
+        oos.writeFloat((float) playerColor.getOpacity());
     }
 
-    private void readObject(java.io.ObjectInputStream in) throws IOException, ClassNotFoundException {
-        in.defaultReadObject();
-        double red = in.readDouble();
-        double green = in.readDouble();
-        double blue = in.readDouble();
-        playerColor = Color.color(red,green,blue);
+    private void readObject(java.io.ObjectInputStream ois) throws IOException, ClassNotFoundException {
+        ois.defaultReadObject();
+        float red = ois.readFloat();
+        float green = ois.readFloat();
+        float blue = ois.readFloat();
+        float opacity = ois.readFloat();
+        playerColor = Color.color(red, green, blue, opacity);
     }
 }
